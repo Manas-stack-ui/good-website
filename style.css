@@ -1,0 +1,68 @@
+.nosignin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.logo{
+    float: left;
+    width: 10em;
+}
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers the ul horizontally */
+    background-color: #f0f0f0; /* Optional: to see navbar area */
+    padding: 1em 0; /* Optional: spacing */
+}
+
+.content {
+    list-style-type: none;
+    display: flex;
+    gap: 2em; /* Spacing between items */
+    padding: 0;
+    margin: 0;
+}
+
+.content li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    color: black;
+}
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: 2em; /* Optional: space between nav items and buttons */
+}
+
+.auth-buttons button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.start{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.start:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+}
+
+.para1{
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
